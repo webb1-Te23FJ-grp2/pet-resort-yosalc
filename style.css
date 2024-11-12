@@ -1,0 +1,13 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    display: grid;
+    width: 1200px;
+}
+
+.overlay {
+   background-image: url(img/happiest-dog.webp);
+   height: 600px;
+}
