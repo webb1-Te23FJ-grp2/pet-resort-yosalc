@@ -1,13 +1,39 @@
 body {
-    background-color: lightgrey;
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
 }
 
 .container {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* justify-items: end; */
     width: 1200px;
 }
 
 .overlay {
    background-image: url(img/happiest-dog.webp);
    height: 600px;
+   grid-column: 1/5;
+   display: flex;
+   align-items: end;
+}
+
+.under{
+    color: white;
+}
+
+.menu1 {
+    grid-column: 1/3;
+    display: flex;
+}
+.menu2 {
+    /* border: solid thin aqua; */
+    grid-column: 3/5;
+    display: flex;
+    justify-content: end;
+}
+
+.menu2 p {
+    margin: 20px;
 }
