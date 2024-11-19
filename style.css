@@ -13,6 +13,7 @@ body {
 
 .overlay {
    background-image: url(img/happiest-dog.webp);
+   border-radius: 10px;
    height: 600px;
    grid-column: 1/5;
    display: flex;
@@ -21,6 +22,7 @@ body {
 
 .under{
     color: white;
+    margin: 20px;
 }
 
 .menu1 {
@@ -36,4 +38,26 @@ body {
 
 .menu2 p {
     margin: 20px;
+}
+
+.groom-box {
+    margin-top: 20px;
+}
+
+.groomin {
+    background-color: white;
+    
+}
+
+
+
+#groomin{
+    display: block;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.groom-box {
+    display: flex;
+    grid-column: 1/4;
 }
