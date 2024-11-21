@@ -60,4 +60,53 @@ body {
 .groom-box {
     display: flex;
     grid-column: 1/4;
+    /* justify-content: space-between; */
+    background-color: white;
+    border-radius: 10px;
+}
+
+.doggoon {
+    padding: 20px;
+}
+
+.octobergoon {
+    padding-left: 20px;
+}
+
+.partners {
+    background-color: white;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.merch  {
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.threedogs  {
+    display: flex;
+}
+
+#dog-wear   {
+    display: block;  
+    
+    border-radius: 20px;
+}
+
+.buddies    {
+    background-color: white;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#bad    {
+    border-radius: 10px;
+}
+
+.dining    {
+    background-color: white;
+    margin: 20px;
 }
