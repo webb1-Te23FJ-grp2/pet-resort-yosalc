@@ -1,0 +1,127 @@
+body {
+    background-color: #eee;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    
+  }
+  .bigwrapper{
+    width: 1200px;
+    box-sizing: border-box;
+  }
+  .wrapper2{
+    padding-top: 10px;
+    
+    
+  }
+  .wrapper1 {
+    max-width: 1200px;
+    display: grid;
+    /* grid-template-columns: repeat(12, 1fr); */
+    grid-template-columns: auto-fill;
+    grid-template-rows: auto;
+    grid-auto-rows: 100px, 300px;
+    align-content: center;
+  }
+  
+  .offers{
+    justify-content: flex-end;
+  }
+  .header {
+    background-image: url("img/happiest-dog.webp");
+    grid-row: 2;
+    /* padding-bottom: 600px; */
+    object-fit: cover;
+    border-radius: 20px;
+    height: 600px;
+    display: flex;
+    flex-direction: column-reverse;
+    object-fit: cover;
+    max-width: 1200px;
+    
+  }
+  img {
+    object-fit: cover;
+    max-height: 600px;
+    max-width: 1200px;
+    border-radius: 20px;
+    grid-column: 1/12;
+  }
+  
+  .menu1 {
+    display: flex;
+    justify-content: flex-start;
+    grid-column: 1/7;
+    margin-left: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    font-size: 20px;
+  }
+  
+  .menu2 {
+    grid-column: 8/12;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+  }
+  .img-text{
+    color: #eee;
+    padding-top: 200px;
+    margin: 20px; 
+  }
+  .featured{
+    display: flex;
+    width: 1200px;
+    box-sizing: border-box;
+    
+  }
+  .groomxpart{
+    display: flex;
+    
+  
+  }
+  .grooming{
+    display: flex;
+    background-color: white;
+    width:75%;
+    grid-row: 3;
+    grid-column: 1/8;
+    object-fit: cover;
+    height: 300px;
+  border-radius: 20px;
+  
+  }
+  .partners{
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 20px;
+   width: 25%;
+    
+    
+  }
+  .grooming img{
+  max-width: 400px;
+  margin: 10px;
+  
+  
+  }
+  .merch{
+    background-color: white;
+    border-radius: 20px;
+   width: 25%;
+   height: 300px;
+   margin-left: 10px;
+  }
+  .buddies{
+    background-color: white;
+    border-radius: 20px;
+   width: 25%;
+   height: 300px;
+   margin-left: 10px;
+  }
+  .dining{
+    background-color: white;
+    border-radius: 20px;
+   width: 25%;
+   height: 300px;
+   margin-left: 10px;
+  }
